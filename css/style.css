@@ -65,7 +65,7 @@ header{
 
    /* FINE STYLE FIRST CONTAINER */
 
-    /* STYLE FIRST CONTAINER */
+    /* STYLE SECOND CONTAINER */
 .second-container{
     width: 100%;
     height: 500px;
@@ -89,7 +89,7 @@ header{
 
 }
 
-   /* FINE STYLE FIRST CONTAINER */
+   /* FINE STYLE SECOND CONTAINER */
 
    /* STYLE THIRD CONTAINER */
 .third-container{
@@ -115,13 +115,224 @@ header{
 }
    /* FINE STYLE THIRD CONTAINER */
 
+   /* STYLE FOURTH CONTAINER */
+.fourth-container{
+    width: 100%;
+    height: 400px;
+    background-color: magenta;
 
 
+}
+.row-fourth-container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: darkslategray;
+    margin: 0 auto;
+
+
+}
+.col-30{
+    width: 60%;
+    border: 1px solid black;
+
+}
+.col-21{
+    width: 40%;
+    border: 1px solid black;
+
+}
+    /* FINE FOURTH CONTAINER */
+
+    /* STYLE FIFTH CONTAINER */
+.fifth-container{
+    width: 100%;
+    height: 500px;
+    background-color: violet;
+    
+    
+}
+.row-fifth-container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    
+    
+}
+.col-33{
+    width: calc(100%/3 - 20px);
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+    
+    /* FINE STYLE FIFTH CONTAINER */
+
+    /* STYLE SIXTH CONTAINER */
+.sixth-container{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+
+
+}
+.row-sixth-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+.col-50{
+    background-color: blue;
+    width: 50%;
+    margin: 0 auto;
+    
+
+}
+   /* FINE STYLE SIXTH CONTAINER */
+
+   /* STYLE SEVENTH CONTAINER */
+.seventh-container{
+    height: 400px;
+    background-color: yellow;
+    width: 100%;
+
+
+
+}
+.row-seventh-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+
+}
+.col-40{
+    width: 40%;
+    height: 200px;
+    background-color: orange;
+    border: 1px solid black;
+    
+
+}
+.col-15{
+    width: 15%;
+    height: 200px;
+    background-color: green;
+    border: 1px solid black;
+
+}
+   /* FINE STYLE SEVENTH CONTAINER */
+
+   /* STYLE EIGHTH CONTAINER */
+.eighth-container{
+    width: 100%;
+    height: 200px;
+    background-color: purple;
+
+
+}
+.row-eighth-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+.col-50{
+    background-color: orangered;
+    width: 50%;
+    margin: 0 auto;
+    
+
+}
+   /* FINE STYLE EIGHTH CONTAINER */
+
+   /* STYLE NINETH CONTAINER */
+.nineth-container{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+
+
+}
+.row-nineth-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+.col-50{
+    background-color: gray;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+
+}
+   /* FINE STYLE NINETH CONTAINER */
+
+   /* STYLE TEENTH CONTAINER */
+.teenth-container{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(65, 30, 30);
+
+
+}
+.row-teenth-container{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+
+
+}
+
+
+.col-20{
+    width: calc(100%/5);
+    height: 100%;
+    background-color: blue;
+    border: solid 1px black;
+    
+}
+   /* FINE STYLE TEENTH CONTAINER */
+    
 
 /* FINE STYLE MAIN */
 
 /* STYLE FOOTER */
+   /* STYLE TEENTH CONTAINER */
+   .teenth-container{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(65, 30, 30);
 
 
+}
+.row-teenth-container{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
 
+
+}
+
+
+.col-20{
+    width: calc(100%/5);
+    height: 100%;
+    background-color: blue;
+    border: solid 1px black;
+    
+}
+   /* FINE STYLE TEENTH CONTAINER */
+    
 /* FINE STYLE FOOTER */
