@@ -2,7 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
+
+
 /* STYLE HEADER  */
 header{
     margin: 10px 0;
@@ -44,10 +47,12 @@ header{
     padding-left: 15px;
 }
 #button-header{
-    background-color: blue;
+    background-color: #0061FF;
     color: white;
     padding: 5px;
     border: none;
+    padding: 10px 20px;
+    font-size: 10px;
 }
 /* FINE STYLE HEADER */
 
@@ -56,7 +61,6 @@ header{
    /* STYLE CONTAINER JUMBOTRON */
 
 .container-jumbotron{
-    height: 470px;
     width: 100%;
     background-color: #B4D0E7;
 }
@@ -85,14 +89,18 @@ header{
     margin-bottom: 30px;
 }
 #button-jumbotron{
-    background-color: blue;
+    background-color: #0061FF;
     color: white;
     padding: 5px;
     border: none;
+    padding: 10px 20px;
+    font-size: 10px;
 
 }
 #arrow{
-    font-size: 60px;
+    font-size: 15px;
+    padding-bottom: 20px;
+    padding-top: 30px;
 }
 .jumbotron-image{
     width: 550px;
@@ -114,8 +122,8 @@ header{
    /* STYLE FIRST CONTAINER */
 .first-container{
     width: 100%;
-    height: 200px;
-    background-color: darkred;
+
+
 
 
 }
@@ -126,11 +134,22 @@ header{
 
 
 }
-.col-50{
-    background-color: blue;
+.col-first-container{
     width: 50%;
     margin: 0 auto;
 
+}
+h2{
+    padding-top: 100px;
+}
+ul{
+    padding: 30px 0;
+    list-style: none;
+}
+.button-radio{
+    display: inline;
+    padding-right: 30px;
+    
 }
 
    /* FINE STYLE FIRST CONTAINER */
@@ -138,36 +157,82 @@ header{
     /* STYLE SECOND CONTAINER */
 .second-container{
     width: 100%;
-    height: 500px;
-    background-color: violet;
-
-
+    
 }
 .row-second-container{
     display: flex;
     width: 50%;
     height: 100%;
-    background-color: aqua;
     margin: 0 auto;
+    background-color: white;
+    padding-bottom: 30px;
 
 
 }
 .col-16{
-    width: calc(100%/3 - 20px);
-    border: 1px solid black;
-    margin: 10px;
+    width: calc(100%/3);
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    
+}
+.content-list{
+    padding-left: 20px;
+}
+.space{
+    margin: 0 30px;
+}
+.user{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+    padding: 5px 0;
+}
+.first-list-container li{
+    font-size: 10px;
+    padding-bottom: 10px;
+    
+}
+#button-second-container{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 10px;
 
 }
+.first-list-container li:first-child{
+    font-size: medium;
+}
+#third-button{
+    font-size: 10px;
+    padding: 10px 50px;
+    background-color: #0061FF;
+    color: white;
+    border: none;
+}
+.first-list-container a{
+    color: #0061FF;
+}
+hr{
+    width: 20%;
+    margin-left: 20px;
+}
+.second-list-container{
+    font-size: 10px;
+    padding-bottom: 10px;
+
+}
+.second-list-container li{
+    font-size: 10px;
+    padding-bottom: 20px;
+    
+}
+
 
    /* FINE STYLE SECOND CONTAINER */
 
    /* STYLE THIRD CONTAINER */
 .third-container{
     width: 100%;
-    height: 200px;
-    background-color: green;
-
-
 }
 .row-third-container{
     display: flex;
@@ -176,11 +241,33 @@ header{
 
 
 }
-.col-50{
-    background-color: blue;
+.col-third-container{
     width: 50%;
     margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.144);
     
+
+}
+.list-third-container{
+    font-size: 10px;
+    padding-bottom: 10px;
+
+}
+.list-third-container li:first-child{
+    font-size: medium;
+}
+.list-third-container li:last-child{
+    padding-top: 40px;
+}
+#button-third-container{
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 10px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
 
 }
    /* FINE STYLE THIRD CONTAINER */
@@ -284,7 +371,6 @@ header{
 .col-40{
     width: 40%;
     height: 200px;
-    background-color: orange;
     border: 1px solid black;
     
 
@@ -314,7 +400,7 @@ header{
 
 }
 .col-50{
-    background-color: orangered;
+
     width: 50%;
     margin: 0 auto;
     
@@ -338,7 +424,7 @@ header{
 
 }
 .col-50{
-    background-color: gray;
+    
     width: 50%;
     margin: 0 auto;
     border: 1px solid black;

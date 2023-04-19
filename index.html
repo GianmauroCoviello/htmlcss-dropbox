@@ -6,6 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- INIZIO HEADER -->
@@ -42,10 +46,11 @@
                             <p>Finalmente tutti i tuoi strumenti contenuti e <br> collaboratori sono più accessibili dallo stesso posto. <br>Dropbox Business è più di uno spazio di <br> archiviazione sicuro: è un modo itelligente e <br> integrato per ottimizzare il flussodi lavoro <br> esistente</p>
                             <button id="button-jumbotron">inizia la tua prova gratuita</button>
                             <p>Annulla in qualsiasi momento</p>
-                            <div id="arrow">&#x21a7;</div> 
+                            <div id="arrow">
+                                <i class="fa-solid fa-arrow-down fa-2xl"></i>
+                            </div> 
                             <img class="jumbotron-image" src="./img/jumbo.png" alt="">
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -54,8 +59,18 @@
             <!-- INIZIO FIRST CONTAINER -->
             <div class="first-container">
                 <div class="row-first-container">
-                    <div class="col-50">
-
+                    <div class="col-first-container">
+                        <h2>Trova il piano business che fa per te</h2>
+                        <ul>
+                            <li class="button-radio">
+                                <input type="radio">
+                                <span>Fatturazione mensile</span>
+                            </li>
+                            <li class="button-radio">
+                                <input type="radio">
+                                <span>Fatturazione mensile</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -65,13 +80,189 @@
             <div class="second-container">
                 <div class="row-second-container">
                     <div class="col-16">
-
+                        <div class="user">
+                            <i class="fa-solid fa-user fa-2"></i>
+                            <span>Singolo</span>
+                        </div>
+                        <div class="content-list">
+                            <ul class="first-list-container">
+                                <li>
+                                    <h3>Professional</h3>   
+                                </li>
+                                <li>
+                                    <strong><p>12 euro</p></strong>
+                                    <p>/mese</p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-user fa-2"></i>
+                                    <span>1 utente</span>
+                                   
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder fa-2"></i>
+                                    <span>5TB spazio di archiviazione <br> sicuro</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes fa-2"></i>
+                                    <span>Funzioni di attivita premium</span>
+                                </li>
+                                <li>
+                                    <button id="button-second-container">Prova gratis per 30 giorni</button>
+                                </li>
+                                <li>
+                                    <span>oppure</span>
+                                    <a href="">acquista ora</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div  class="content-list">
+                            <ul class="second-list-container">
+                                <li>
+                                    <strong><p>punti salienti del piano</p></strong>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                            </ul>
+                        </div>  
+                    </div>
+                    <div class="col-16 space">
+                        <div class="user">
+                            <i class="fa-solid fa-users fa-2"></i>
+                            <span>Team</span>
+                        </div>
+                        <div class="content-list">
+                            <ul class="first-list-container">
+                                <li>
+                                    <h3>Advanced</h3>   
+                                </li>
+                                <li>
+                                    <strong><p>12 euro</p></strong>
+                                    <p>/mese</p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-user fa-2"></i>
+                                    <span>1 utente</span>
+                                   
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder fa-2"></i>
+                                    <span>5TB spazio di archiviazione <br> sicuro</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes fa-2"></i>
+                                    <span>Funzioni di attivita premium</span>
+                                </li>
+                                <li>
+                                    <button id="button-second-container">Prova gratis per 30 giorni</button>
+                                </li>
+                                <li>
+                                    <span>oppure</span>
+                                    <a href="">acquista ora</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div  class="content-list">
+                            <ul class="second-list-container">
+                                <li>
+                                    <strong><p>punti salienti del piano</p></strong>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                            </ul>
+                        </div>  
                     </div>
                     <div class="col-16">
-
-                    </div>
-                    <div class="col-16">
-
+                        <div class="user">
+                            <i class="fa-solid fa-building fa-2"></i>
+                            <span>Azienda</span>
+                        </div>
+                        <div class="content-list">
+                            <ul class="first-list-container">
+                                <li>
+                                    <h3>Enterprise</h3>   
+                                </li>
+                                <li>
+                                    <strong><p>12 euro</p></strong>
+                                    <p>/mese</p>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-user fa-2"></i>
+                                    <span>1 utente</span>
+                                   
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-folder fa-2"></i>
+                                    <span>5TB spazio di archiviazione <br> sicuro</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-share-nodes fa-2"></i>
+                                    <span>Funzioni di attivita premium</span>
+                                </li>
+                                <li>
+                                    <button id="third-button" class="size-button">Contattaci</button>
+                                </li>
+                                <li>
+                                    <span>oppure</span>
+                                    <a href="">acquista ora</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div  class="content-list">
+                            <ul class="second-list-container">
+                                <li>
+                                    <strong><p>punti salienti del piano</p></strong>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-check fa-2"></i>
+                                    <span>invia file con Dropbox Transfert</span>
+    
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -80,8 +271,26 @@
             <!-- INIZIO THIRD CONTAINER -->
             <div class="third-container">
                 <div class="row-third-container">
-                    <div class="col-50">
-            
+                    <div class="col-third-container">
+                        <div class="user">
+                            <i class="fa-solid fa-building fa-2"></i>
+                            <span>Team</span>
+                        </div>
+                        <button id="button-third-container">Contatta l' ufficio vendite</button>
+                        <div class="content-list">
+                            <ul class="list-third-container">
+                                <li>
+                                    <h3>Enterprise</h3>   
+                                </li>
+                                <li>
+                                    <strong><p>Contatta l' ufficio vendite per i prezzi</p></strong>
+                                    <p>/mese</p>
+                                </li>
+                                <li>
+                                    <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione <br> su qualsiasi scala</p>  
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
