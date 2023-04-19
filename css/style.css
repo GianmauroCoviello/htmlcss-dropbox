@@ -23,7 +23,7 @@ header{
 /* FINE STYLE HEADER */
 
 /* STYLE MAIN  */
-   /* INIZIO CONTAINER JUMBOTRON */
+   /* STYLE CONTAINER JUMBOTRON */
 .container-jumbotron{
     height: 500px;
     width: 100%;
@@ -40,6 +40,81 @@ header{
     margin: 0 auto;
 }
    /* FINE CONTAINER JUMBOTRON */
+
+   /* STYLE FIRST CONTAINER */
+.first-container{
+    width: 100%;
+    height: 200px;
+    background-color: darkred;
+
+
+}
+.row-first-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+.col-50{
+    background-color: blue;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+   /* FINE STYLE FIRST CONTAINER */
+
+    /* STYLE FIRST CONTAINER */
+.second-container{
+    width: 100%;
+    height: 500px;
+    background-color: violet;
+
+
+}
+.row-second-container{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    margin: 0 auto;
+
+
+}
+.col-16{
+    width: calc(100%/3 - 20px);
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+   /* FINE STYLE FIRST CONTAINER */
+
+   /* STYLE THIRD CONTAINER */
+.third-container{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+
+
+}
+.row-third-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+
+}
+.col-50{
+    background-color: blue;
+    width: 50%;
+    margin: 0 auto;
+    
+
+}
+   /* FINE STYLE THIRD CONTAINER */
+
 
 
 
