@@ -14,7 +14,7 @@ header{
     width: 100%;
     height: 100%;
     justify-content: space-between;
-    align-items: center;
+    align-items: center ;
 }
 .col-25{
     width: calc(100%/3);
@@ -22,8 +22,9 @@ header{
     
 }
 .logo-dropbox{
-    width: 80px;
+    width: 100px;
     padding-right: 10px;
+    
     
 }
 .content-first-menu{
@@ -31,8 +32,9 @@ header{
 
 }
 .content-second-menu{
-    text-align: end;
     margin-right: 10px;
+    text-align: end;
+
     
 }
 .content-first-menu span{
@@ -52,10 +54,11 @@ header{
 /* STYLE MAIN  */
 
    /* STYLE CONTAINER JUMBOTRON */
+
 .container-jumbotron{
-    height: 500px;
+    height: 470px;
     width: 100%;
-    background-color: lightseagreen;
+    background-color: #B4D0E7;
 }
 .row-jumbotron{
     display: flex;
@@ -64,9 +67,48 @@ header{
 }
 .col-60{
     width: 60%;
-    background-color: chocolate;
     margin: 0 auto;
 }
+.content-jumbotron{
+    margin-top: 40px;
+    position: relative;
+    
+
+}
+.content-jumbotron p, #button-jumbotron{
+    margin-bottom: 20px;
+    
+
+}
+.col-60 h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+#button-jumbotron{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: none;
+
+}
+#arrow{
+    font-size: 60px;
+}
+.jumbotron-image{
+    width: 550px;
+    position: absolute;
+    left: 270px;
+    top: 170px;
+
+}
+.content-jumbotron p{
+    margin-bottom: 20px;
+    font-size: small;
+    
+    
+
+}
+
    /* FINE CONTAINER JUMBOTRON */
 
    /* STYLE FIRST CONTAINER */
