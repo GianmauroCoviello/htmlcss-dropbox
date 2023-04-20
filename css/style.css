@@ -145,7 +145,7 @@ header{
     margin: 0 auto;
 
 }
-h2{
+.col-first-container h2{
     padding-top: 100px;
 }
 ul{
@@ -381,7 +381,6 @@ hr{
 
 .col-50{
     width: 50%;
-    margin: 0 auto;
     
 
 }
@@ -405,9 +404,11 @@ hr{
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    align-items: center;
 
 
 }
+
 .col-40{
     width: 40%;
     height: 200px;
@@ -465,8 +466,8 @@ hr{
     background-color: #FFD830;
 }
 .ridimension-svg{
-    width: 150px;
-    height: 50px;
+    width: 90px;
+    height: 30px;
 
 }
 
@@ -474,22 +475,39 @@ hr{
 
    /* STYLE EIGHTH CONTAINER */
 .eighth-container{
-    width: 100%;
-    height: 200px;
-    background-color: purple;
+    max-width: 100%;
+    background-color:  #B4D0E7;
+
+    
 
 
 }
 .row-eighth-container{
     display: flex;
-    width: 100%;
-    height: 100%;
+    width: 1170px;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: center;
+    margin: 0 auto;
 
 
 }
 .col-50{
     width: 50%;
-    margin: 0 auto;
+}
+.col-50 h2{
+    color: brown;
+}
+#button-eighth-container{
+    background-color: white;
+    color: #B4D0E7;
+    padding: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 10px;
+    float: right;
+    
+    
     
 
 }
@@ -497,54 +515,37 @@ hr{
 
    /* STYLE NINETH CONTAINER */
 .nineth-container{
-    width: 100%;
-    height: 400px;
-    background-color: red;
+    max-width: 1170px;
+    margin: 0 auto;
 
 
 }
 .row-nineth-container{
     display: flex;
-    width: 100%;
+    max-width: 1170px;
     height: 100%;
+    align-items: center;
+    padding: 50px 0;
+    justify-content: center;
+
 
 
 }
-.col-50{ 
+.col-51{ 
     width: 50%;
-    margin: 0 auto;
+}
+.col-51 h2{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+
+}
+.col-51 p{
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
 
 }
 
    /* FINE STYLE NINETH CONTAINER */
-
-   /* STYLE TEENTH CONTAINER */
-.teenth-container{
-    width: 100%;
-    height: 300px;
-    background-color: rgb(65, 30, 30);
-
-
-}
-.row-teenth-container{
-    display: flex;
-    width: 60%;
-    height: 100%;
-    margin: 0 auto;
-
-
-}
-
-
-.col-20{
-    width: calc(100%/5);
-    height: 100%;
-    background-color: blue;
-    border: solid 1px black;
-    
-}
-   /* FINE STYLE TEENTH CONTAINER */
-    
 
 /* FINE STYLE MAIN */
 
