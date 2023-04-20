@@ -200,7 +200,7 @@ ul{
     padding-bottom: 10px;
     
 }
-#button-second-container{
+.button-second-container{
     background-color: #0061FF;
     color: white;
     padding: 10px 20px;
@@ -221,7 +221,7 @@ ul{
 .first-list-container a{
     color: #0061FF;
 }
-hr{
+.hr-second-container{
     width: 20%;
     margin-left: 20px;
 }
@@ -366,16 +366,12 @@ hr{
     margin: 0 auto;
     padding-bottom: 70px;
 
-
-
-
 }
 .row-sixth-container{
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: center;
-
 
 }
 
@@ -394,7 +390,6 @@ hr{
 
    /* STYLE SEVENTH CONTAINER */
 .seventh-container{
-    height: 400px;
     width: 100%;
 
 
@@ -478,9 +473,6 @@ hr{
     max-width: 100%;
     background-color:  #B4D0E7;
 
-    
-
-
 }
 .row-eighth-container{
     display: flex;
@@ -551,30 +543,50 @@ hr{
 
 /* STYLE FOOTER */
    /* STYLE TEENTH CONTAINER */
-   .teenth-container{
+footer{
     width: 100%;
-    height: 300px;
-    background-color: rgb(65, 30, 30);
-
+    background-color: black;
+}
+.teenth-container{
+    max-width: 1170px;
+    margin: 0 auto;
 
 }
 .row-teenth-container{
     display: flex;
-    width: 60%;
-    height: 100%;
+    max-width: 60%;
+    justify-content: center;
     margin: 0 auto;
-
-
 }
-
 
 .col-20{
     width: calc(100%/5);
-    height: 100%;
-    background-color: blue;
-    border: solid 1px black;
+   
+}
+.footer-list li:first-child{
+    padding-bottom: 20px;
+    font-size: large;
+    
+
+}
+.footer-list li{
+    color: white;
+    padding-bottom: 10px;
+    font-size: small;
+}
+
+#hr-footer{
+    width: 60%;
+    margin-bottom: 30px;
     
 }
+.global-language{
+    color: rgba(255, 255, 255, 0.63);
+    padding-bottom: 30px;
+    font-size: small;
+    display: inline-block;
+}
+
    /* FINE STYLE TEENTH CONTAINER */
     
 /* FINE STYLE FOOTER */
