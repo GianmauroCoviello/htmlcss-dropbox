@@ -5,7 +5,6 @@
     
 }
 
-
 /* STYLE HEADER  */
 header{
     width: 100%;
@@ -19,7 +18,6 @@ header{
 .row-header{
     display: flex;
     width: 100%;
-    height: 100%;
     justify-content: space-between;
     align-items: center ;
     padding: 10px 0;
@@ -29,6 +27,12 @@ header{
     font-size: small;
     
 }
+.col-25 a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
 .logo-dropbox{
     width: 100px;
     padding-right: 10px;
@@ -45,12 +49,7 @@ header{
 
     
 }
-.content-first-menu span{
-    padding-right: 15px;
-}
-.content-second-menu span{
-    padding-left: 15px;
-}
+
 #button-header{
     background-color: #0061FF;
     color: white;
@@ -148,8 +147,8 @@ header{
 .col-first-container h2{
     padding-top: 100px;
 }
-ul{
-    padding: 30px 0;
+.first-container-list{
+    padding: 25px 0;
     list-style: none;
 }
 .button-radio{
@@ -181,10 +180,37 @@ ul{
     width: calc(100%/3);
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.144);
+    padding-bottom: 20px;
     
 }
-.content-list{
-    padding-left: 20px;
+.cont-li{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.sub-list{
+    list-style: none;
+}
+.sub-title{
+    font-size: 10px;
+    margin-left: 17px;
+    padding: 25px 0 15px 0;
+}
+.fa-ul{
+    list-style: none;
+}
+.cont-li li{
+    padding-left: 15px;
+    font-size: 10px;
+    padding-bottom: 5px;
+   
+    
+}
+.cont-li h3{   
+    font-size: medium;
+}
+.light-gray{
+    color: rgba(190, 182, 182, 0.993);
 }
 .space{
     margin: 0 30px;
@@ -193,13 +219,23 @@ ul{
     text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.144);
     padding: 5px 0;
+    font-size: small;
+}
+.first-list{
+    padding-bottom: 0;
+
+}
+.fa-ul i{
+    padding-left: 5px;
 }
 
-.first-list-container li{
+.fa-ul li{
     font-size: 10px;
     padding-bottom: 10px;
-    
+    padding-left: 2px;   
 }
+
+
 .button-second-container{
     background-color: #0061FF;
     color: white;
@@ -208,35 +244,60 @@ ul{
     font-size: 10px;
 
 }
-.first-list-container li:first-child{
-    font-size: medium;
-}
-#third-button{
-    font-size: 10px;
-    padding: 10px 50px;
+
+.second-container-button{
     background-color: #0061FF;
     color: white;
+    padding: 5px;
     border: none;
+    padding: 10px 15px;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;   
 }
-.first-list-container a{
-    color: #0061FF;
+.last-second-container-button{
+    background-color: #0061FF;
+    color: white;
+    padding: 5px;
+    border: none;
+    padding: 10px 50px;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;   
+
+}
+
+.col-link{
+    font-size: 10px;
+    padding-left: 15px;
+
+}
+.col-link a{
+    color: #0093CE;
+
 }
 .hr-second-container{
-    width: 20%;
-    margin-left: 20px;
+    width: 20%;  
+    margin-left: 15px;
+    margin-top: 20px;
 }
 .second-list-container{
     font-size: 10px;
     padding-bottom: 10px;
 
 }
+.blue-icons{
+    color: #0093CE;
+}
 .second-list-container li{
     font-size: 10px;
     padding-bottom: 20px;
-    
+    padding-left: 10px;
+   
 }
-
-
+.fa-ul{
+    font-size: 10px;    
+}
    /* FINE STYLE SECOND CONTAINER */
 
    /* STYLE THIRD CONTAINER */
@@ -262,13 +323,18 @@ ul{
 .list-third-container{
     font-size: 10px;
     padding-bottom: 10px;
+    list-style: none;
+    padding-left: 15px;
 
 }
 .list-third-container li:first-child{
     font-size: medium;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
 }
 .list-third-container li:last-child{
-    padding-top: 40px;
+    padding: 30px 0 10px 0;
 }
 #button-third-container{
     background-color: #0061FF;
@@ -277,7 +343,7 @@ ul{
     border: none;
     font-size: 10px;
     float: right;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 10px;
 
 }
@@ -390,51 +456,58 @@ ul{
 
    /* STYLE SEVENTH CONTAINER */
 .seventh-container{
-    width: 100%;
-
-
+    width: 100vw;
 
 }
 .row-seventh-container{
     display: flex;
+    height: 400px;
+    width: 100%;
+    
+
+}
+.col-full{
+    width: calc(100%/3);
+    background-color: orange;
+    height: 100%; 
+    display: flex;
     flex-wrap: wrap;
-    height: 100%;
-    align-items: center;
-
 
 }
-
-.col-40{
-    width: 40%;
-    height: 200px;
-}
-.col-15{
-    width: 15%;
-    height: 200px;
+.sub-col{
+    width: calc(100%/2);
+    height: calc(100%/2);
+    background-color: #0061FF;
     position: relative;
-
 }
-.col-15-svg{
-    width: 100px;
+.svg{
     height: 100px;
+    width: 100px;
+    filter: invert(100%);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);  
-}
-.content-col-40{
-    padding: 20px;
-    font-size: 11px;
-}
-.content-col-40 p:last-child{
-    padding-top: 20px;
-    
-}
-.col-40-svg{
-    height: 100px;
-    width: 180px;
 
 }
+.content-central-col{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.content-central-col p{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+.big-svg{
+    width: 200px;
+    height: 100px;
+
+}
+#hr-central-col{
+    width: 20%;
+    margin-bottom: 20px;
+}
+
 .lightgreen{
     background-color: #A2D39B;
     border: 10px solid #D1E9CD;
@@ -461,9 +534,11 @@ ul{
     background-color: #FFD830;
 }
 .ridimension-svg{
-    width: 90px;
+    width: 100px;
     height: 30px;
-
+}
+.lightgray{
+    background-color: rgb(235, 234, 234);
 }
 
    /* FINE STYLE SEVENTH CONTAINER */
@@ -498,9 +573,6 @@ ul{
     padding: 10px 20px;
     font-size: 10px;
     float: right;
-    
-    
-    
 
 }
    /* FINE STYLE EIGHTH CONTAINER */
@@ -519,8 +591,6 @@ ul{
     align-items: center;
     padding: 50px 0;
     justify-content: center;
-
-
 
 }
 .col-51{ 
@@ -561,28 +631,32 @@ footer{
 
 .col-20{
     width: calc(100%/5);
-   
+    padding-top: 50px;
+       
 }
 .footer-list li:first-child{
     padding-bottom: 20px;
-    font-size: large;
+    font-size: medium;
     
 
 }
 .footer-list li{
     color: white;
     padding-bottom: 10px;
-    font-size: small;
+    font-size: 10px;
+    list-style: none;
+    
 }
 
 #hr-footer{
     width: 60%;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
     
 }
 .global-language{
     color: rgba(255, 255, 255, 0.63);
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     font-size: small;
     display: inline-block;
 }
